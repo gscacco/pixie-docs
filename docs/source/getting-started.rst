@@ -28,8 +28,8 @@ Builing on Arch
 ^^^^^^^^^^^^^^^
 ::
 
-	pacman -S libuv libffi python2
-	mkdir ~/projects/pixie-lang
+	pacman -S libuv libffi python2 boost
+	mkdir -p ~/projects/pixie-lang
 	cd ~/projects/pixie-lang
 	git clone https://github.com/pixie-lang/pixie.git
 	cd pixie
